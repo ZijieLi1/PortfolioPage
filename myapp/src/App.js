@@ -1,23 +1,22 @@
 import logo from './logo.svg';
 import './App.css';
+import Wave from 'react-wavify'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Wave fill='#f79902'
+        paused={false}
+        options={{
+          height: 20,
+          amplitude: 20,
+          speed: 0.15,
+          points: 10
+        }}
+        style={{
+          transform: 'scaleY(-1)'
+        }}
+  />
     </div>
   );
 }
