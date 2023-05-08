@@ -22,7 +22,8 @@ function App() {
         }}
         style={{
           transform: 'rotate(180deg)',
-          position: 'fixed'
+          position: 'fixed',
+          zIndex: -1,
         }}
       />
       <img src={CircleSelfie} alt="Zijie Selfie" style={{ alignSelf: 'center', marginTop: '40px', height: '100px', width: 'auto', zIndex: 1 }} />
