@@ -11,7 +11,7 @@ function LinkedCard(props) {
     textAlign: 'center',
     width: '100%',
     height: '55px',
-    margin: '10px'
+    margin: '10px 0px 10px 0px'
   }}
   startDecorator={props.icon}
   onClick = {()=> {window.location.href = props.url}}
