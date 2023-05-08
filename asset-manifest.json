@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0f5b639e.css",
+    "main.js": "/static/js/main.1116a5fd.js",
+    "static/js/787.d3befce1.chunk.js": "/static/js/787.d3befce1.chunk.js",
+    "static/media/CircleSelfie.png": "/static/media/CircleSelfie.d22c531bd22b1cad37a6.png",
+    "index.html": "/index.html",
+    "main.0f5b639e.css.map": "/static/css/main.0f5b639e.css.map",
+    "main.1116a5fd.js.map": "/static/js/main.1116a5fd.js.map",
+    "787.d3befce1.chunk.js.map": "/static/js/787.d3befce1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0f5b639e.css",
+    "static/js/main.1116a5fd.js"
+  ]
+}
